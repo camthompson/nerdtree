@@ -642,7 +642,7 @@ NERD tree. These options should be set in your vimrc.
 |'NERDTreeWinSize'|             Sets the window size when the NERD tree is
                                 opened.
 
-|'NERDTreeMinimalUI'|           Disables display of the 'Bookmarks' label and 
+|'NERDTreeMinimalUI'|           Disables display of 'Bookmarks', '..', and
                                 'Press ? for help' text.
 
 |'NERDTreeDirArrows'|           Tells the NERD tree to use arrows instead of
@@ -932,8 +932,8 @@ This option is used to change the size of the NERD tree when it is loaded.
 Values: 0 or 1
 Default: 0
 
-This options disables the 'Bookmarks' label 'Press ? for help' text. Use one
-of the following lines to set this option: >
+This options disables the 'Bookmarks', '..', and 'Press ? for help' text. Use
+one of the following lines to set this option: >
     let NERDTreeMinimalUI=0
     let NERDTreeMinimalUI=1
 <
